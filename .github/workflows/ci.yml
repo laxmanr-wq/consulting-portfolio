@@ -1,0 +1,54 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.10", "3.11"]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run data pipeline sanity tests
+        run: pytest tests/ -v
+
+      - name: Generate all datasets (build check)
+        run: |
+          python src/data_generation/generate_airline_data.py
+          python src/data_generation/generate_ott_data.py
+          python src/data_generation/generate_telemedicine_data.py
+
+      - name: Run Case 1 analysis (build check)
+        run: python src/case1_airline/analysis.py
+
+      - name: Run Case 2 pipeline (build check)
+        run: |
+          python src/case2_ott/eda.py
+          python src/case2_ott/churn_model.py
+          python src/case2_ott/segmentation.py
+
+      - name: Run Case 3 pipeline (build check)
+        run: |
+          python src/case3_telemedicine/eda.py
+          python src/case3_telemedicine/noshow_model.py
+          python src/case3_telemedicine/intervention_simulation.py
+
+      - name: Verify Streamlit app imports cleanly
+        run: python -c "import ast; ast.parse(open('dashboard/app.py').read())"

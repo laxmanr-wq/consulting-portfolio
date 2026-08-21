@@ -1,0 +1,49 @@
+route_id,route,is_udan_route,avg_margin,avg_load_factor,verdict
+26,Raipur-Nagpur-R26,False,-1.6421666666666666,0.6983333333333333,Structurally Unviable
+31,Surat-Mumbai-R31,False,-1.3313333333333333,0.6936666666666667,Structurally Unviable
+9,Madurai-Bengaluru-R9,False,-1.2788833333333334,0.6629999999999999,Structurally Unviable
+1,Jamshedpur-Bhubaneswar-R1,False,-1.2196833333333335,0.6865,Structurally Unviable
+3,Kanpur-Lucknow-R3,False,-0.9522666666666666,0.6756666666666667,Structurally Unviable
+46,Patna-Ranchi-R46,False,-0.9084833333333334,0.6606666666666666,Structurally Unviable
+6,Rajkot-Ahmedabad-R6,True,-0.89595,0.7385,Structurally Unviable
+21,Indore-Bhopal-R21,False,-0.8547666666666666,0.6813333333333333,Structurally Unviable
+13,Vizag-Hyderabad-R13,False,-0.7959666666666667,0.6915,Structurally Unviable
+45,Vizag-Hyderabad-R45,False,-0.7755166666666667,0.637,Structurally Unviable
+40,Varanasi-Delhi-R40,False,-0.74905,0.6718333333333334,Structurally Unviable
+16,Kharagpur-Kolkata-R16,False,-0.7277,0.66,Structurally Unviable
+11,Jodhpur-Jaipur-R11,False,-0.6366833333333334,0.668,Structurally Unviable
+42,Raipur-Nagpur-R42,False,-0.5932000000000001,0.6643333333333333,Structurally Unviable
+5,Indore-Bhopal-R5,False,-0.5670000000000001,0.7181666666666667,Structurally Unviable
+10,Raipur-Nagpur-R10,False,-0.54535,0.6818333333333334,Structurally Unviable
+17,Jamshedpur-Bhubaneswar-R17,False,-0.3489,0.6738333333333334,Structurally Unviable
+4,Coimbatore-Chennai-R4,False,-0.32001666666666667,0.653,Structurally Unviable
+12,Amritsar-Chandigarh-R12,False,-0.2579666666666667,0.7111666666666667,Structurally Unviable
+23,Guwahati-Dibrugarh-R23,True,-0.2191833333333333,0.703,Structurally Unviable
+39,Guwahati-Dibrugarh-R39,False,-0.17866666666666667,0.6726666666666667,Structurally Unviable
+14,Patna-Ranchi-R14,False,-0.17051666666666665,0.681,Structurally Unviable
+18,Nashik-Pune-R18,False,-0.1351,0.7096666666666667,Structurally Unviable
+47,Surat-Mumbai-R47,True,-0.04914999999999999,0.6920000000000001,At-Risk (thin/negative)
+37,Indore-Bhopal-R37,False,0.023216666666666663,0.6788333333333334,At-Risk (thin/negative)
+25,Madurai-Bengaluru-R25,False,0.03163333333333333,0.6915,Healthy
+36,Coimbatore-Chennai-R36,False,0.03231666666666667,0.6890000000000001,Healthy
+7,Guwahati-Dibrugarh-R7,False,0.04086666666666667,0.6428333333333334,Healthy
+8,Varanasi-Delhi-R8,False,0.04301666666666667,0.6495,Healthy
+41,Madurai-Bengaluru-R41,True,0.08703333333333334,0.7276666666666666,Healthy
+32,Kharagpur-Kolkata-R32,True,0.14203333333333334,0.7185,Healthy
+44,Amritsar-Chandigarh-R44,False,0.14628333333333332,0.7206666666666667,Healthy
+20,Coimbatore-Chennai-R20,True,0.15306666666666668,0.7606666666666667,Healthy
+30,Patna-Ranchi-R30,False,0.1558,0.6743333333333333,Healthy
+48,Kharagpur-Kolkata-R48,False,0.16268333333333332,0.6876666666666668,Healthy
+19,Kanpur-Lucknow-R19,False,0.16363333333333333,0.6873333333333332,Healthy
+15,Surat-Mumbai-R15,False,0.18643333333333334,0.7183333333333333,Healthy
+43,Jodhpur-Jaipur-R43,True,0.2156,0.7603333333333334,Healthy
+2,Nashik-Pune-R2,False,0.22809999999999997,0.6736666666666666,Healthy
+22,Rajkot-Ahmedabad-R22,False,0.2417,0.6531666666666667,Healthy
+38,Rajkot-Ahmedabad-R38,False,0.25053333333333333,0.6688333333333333,Healthy
+33,Jamshedpur-Bhubaneswar-R33,True,0.2844,0.7023333333333334,Healthy
+35,Kanpur-Lucknow-R35,False,0.33415,0.6715,Healthy
+27,Jodhpur-Jaipur-R27,True,0.37010000000000004,0.7211666666666666,Healthy
+29,Vizag-Hyderabad-R29,True,0.39325000000000004,0.6928333333333333,Healthy
+34,Nashik-Pune-R34,False,0.40795000000000003,0.6803333333333333,Healthy
+24,Varanasi-Delhi-R24,True,0.4537166666666667,0.7118333333333333,Healthy
+28,Amritsar-Chandigarh-R28,True,0.5148333333333334,0.7578333333333332,Healthy

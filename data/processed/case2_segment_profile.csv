@@ -1,0 +1,5 @@
+segment,n_episodes,avg_pacing,avg_cognitive_load,avg_runtime,avg_watch_pct,avg_dropoff_rate
+1,92,6.46,4.11,45.4,0.71,0.19
+3,78,6.05,5.17,31.33,0.8,0.19
+0,74,6.17,5.65,48.85,0.89,0.23
+2,76,7.41,7.24,41.41,0.71,0.29

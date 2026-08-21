@@ -1,0 +1,4 @@
+lever,affected_appointments,baseline_rate,target_rate,appointments_saved,est_monthly_revenue_saved
+Default to SMS+Push reminders (currently No Reminder / SMS-only / Push-only),7704,0.1819833852544133,0.12771560236998025,418.0,188136.0
+Pre-appointment connection-test nudge for 'Poor' connectivity users,2153,0.20018578727357175,0.16618785285033955,73.0,32939.0
+T-24h re-confirmation nudge for appointments booked >4 days in advance,469,0.16844349680170576,0.15646050214329454,6.0,2529.0

@@ -1,0 +1,26 @@
+,mean_abs_shap
+remainder__first_time_user,0.2673104566620856
+cat__reminder_channel_SMS+Push+Call,0.1509474312000635
+cat__reminder_channel_SMS+Push,0.12498216882523981
+remainder__doctor_reschedule_history,0.12301435342810993
+cat__connectivity_quality_Good,0.11035727824785047
+cat__connectivity_quality_Poor,0.08534683322134504
+remainder__lead_time_hours,0.0806557640332233
+cat__time_slot_Afternoon (12-4),0.07605963982971027
+remainder__prior_completed_consults,0.07026180568225336
+remainder__patient_age,0.058161818441656334
+cat__reminder_channel_No Reminder,0.04586531627324358
+cat__time_slot_Early Morning (7-9),0.045227162311353555
+remainder__fee_prepaid,0.029960915259150827
+cat__time_slot_Night (8-10),0.0265542349250926
+cat__specialty_Dermatology,0.0223563130774604
+cat__specialty_Gynecology,0.011008076070566513
+cat__specialty_ENT,0.01016643870849354
+cat__reminder_channel_SMS,0.008437962752985246
+cat__specialty_Pediatrics,0.0058694286946967015
+cat__time_slot_Evening (4-8),0.005404767266610784
+cat__specialty_Psychiatry,0.0037398380514260705
+cat__reminder_channel_Push,0.003447192097431186
+cat__time_slot_Morning (9-12),0.0030347649170326787
+cat__connectivity_quality_Average,0.0029425443094240737
+cat__specialty_General Physician,0.0021112838188044746
